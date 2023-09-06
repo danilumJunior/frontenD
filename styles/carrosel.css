@@ -52,7 +52,6 @@
 }
 
 .descricao__titulo-livro{
-
     color: var(--azul);
     font-size: 18px;
     font-weight: 700;
@@ -60,7 +59,6 @@
 }
 
 .descricao__texto{
-
     font-size: 14px;
 }
 
@@ -69,7 +67,6 @@
 }
 
 .botoes__ancora{
-
     background-color: var(--laranja);
     padding: 1em 2.2em;
     color: var(--branco);       
@@ -78,6 +75,5 @@
 }
 
 .estrelas{
-
     margin: .5em 0;
 }
