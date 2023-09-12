@@ -92,7 +92,7 @@
     .opções__item{
         text-transform: uppercase;
         padding: 1em;
-        color: var(--preto)
+        color: var(--preto);
     }
 
     .opções__link{
@@ -104,5 +104,11 @@
     }
     .cabecalho_menu-hamburguer{
         display: none;
+    }
+    .imagem_titulo{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        color: var(--preto);
     }
 }
