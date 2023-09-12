@@ -15,12 +15,11 @@
 .swiper-button-prev, 
 .swiper-button-next{
     display: none;
-
 }
 
 .swiper-pagination{
     position: initial;
-    margin: .5em 0;
+    margin: 1em 0;
 }
 
 .card__descricao{
