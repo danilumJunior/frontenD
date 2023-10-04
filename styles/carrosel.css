@@ -12,14 +12,18 @@
     width: 100%;
 }
 
-.swiper-button-prev, 
-.swiper-button-next{
-    display: none;
+ body .swiper-button-prev, 
+ body .swiper-button-next{
+    visibility: hidden !important;
+
 }
 
+.swiper{
+    position: relative;
+}
 .swiper-pagination{
-    position: initial;
-    margin: 1em 0;
+    position: absolute;
+    top: 0;
 }
 
 .card__descricao{
