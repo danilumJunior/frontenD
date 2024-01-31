@@ -92,7 +92,7 @@
 
     .opções__item{
         text-transform: uppercase;
-        padding: 1em;
+        padding: 0 1em;
         color: var(--preto);
     }
 
@@ -114,5 +114,10 @@
     }
     label {
         display: none;
+    }
+
+    .opções__botão:checked ~ .lista-menu{
+        display: block;
+        width: auto;
     }
 }
