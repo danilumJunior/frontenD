@@ -323,11 +323,16 @@
     <script>
         const swiper = new Swiper('.swiper', {
             spaceBetween: 10,
-            slidesPerView: 3,
+            slidesPerView: 2,
             pagination: {
                 el: '.swiper-pagination',
                 type: 'bullets',
             },
+            breakpoints: {
+                750: {
+                    slidesPerView: 3,
+                },
+            }   
         });
     </script>
 </body>
